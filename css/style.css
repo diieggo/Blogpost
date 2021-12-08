@@ -4,18 +4,25 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
-header {
-    padding: 1rem;
-    border: 1px solid black;
+.header {
     width: 80%;
     margin: 2rem auto;
+    box-shadow: 0px 0px 2px gray;
 }
 
-header h2 {
-    color: gray;
+.header h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+    text-align: center;
+    background-color:lightslategrey;
+    color: white;
+}
+
+.header div {
+    padding: 1rem;
 }
 
 .section {
@@ -41,4 +48,5 @@ header h2 {
 .section ul li a {
     text-decoration: none;
     color: lightseagreen;
+    padding: 0.5rem;
 }
